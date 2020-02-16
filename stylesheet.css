@@ -6,3 +6,11 @@ table, th, td {
     padding: 5px;
     text-align: left;
   }
+
+  th {
+    background-color:#D8D8D8;
+  }
+
+  .table1 {
+    background-color: #D8D8D8;
+  }
