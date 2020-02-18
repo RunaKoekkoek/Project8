@@ -1,0 +1,37 @@
+nav {
+  height: 50px;                    /* Size of the navabar border. */
+  background: #e56a54;          /* Color of the background of navbar. */
+}
+
+.nav-links {                      /* Positioning of the menu bar. */
+    display: flex;                  /* Positioning of the navbar buttons. */
+    list-style: none;               /* No style added in buttons. */
+    width: 100%;                    /* Width of the text. */
+    height: 100%;                   /* Height of the text. */
+    justify-content: space-around;  /* That there is some space around the buttons top navbar. */
+    align-items: center;            /* Center the buttons. */
+  }
+  
+.nav-links li a {                 /* Text in the navbar. */
+    color: #00555c;               /* Define the color of the text. */
+    font-size: 20px;                /* Size of the font. */
+    text-decoration: none;          /* This wil delete the line below the text. */
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 5px;
+    text-align: left;
+  }
+
+  th {
+    background-color:#D8D8D8;
+  }
+
+  .table1 {
+    background-color: #D8D8D8;
+  }
