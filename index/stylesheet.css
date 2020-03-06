@@ -1,9 +1,9 @@
 nav {
-  height: 50px;                    /* Size of the navabar border. */
-  background: #e56a54;          /* Color of the background of navbar. */
+  height: 50px;                     /* Size of the navabar border. */
+  background: #e56a54;            /* Color of the background of navbar. */
 }
 
-.nav-links {                      /* Positioning of the menu bar. */
+.nav-links {                        /* Positioning of the menu bar. */
     display: flex;                  /* Positioning of the navbar buttons. */
     list-style: none;               /* No style added in buttons. */
     width: 100%;                    /* Width of the text. */
@@ -12,7 +12,7 @@ nav {
     align-items: center;            /* Center the buttons. */
   }
   
-.nav-links li a {                 /* Text in the navbar. */
+.nav-links li a {                   /* Text in the navbar. */
     color: #00555c;               /* Define the color of the text. */
     font-size: 20px;                /* Size of the font. */
     text-decoration: none;          /* This wil delete the line below the text. */
