@@ -4,9 +4,10 @@
     Name Document: kabelchecklijst.html
     Author: Runa Koekkoek
     Date of creation: 12-02-2020
-    Last change: 20-02-2020
+    Last change: 21-02-2020
 -->
 
+<!--This is the head of the html page where you can find the title, viewport and the link to the CSS stylesheet-->
 <html>
 	<head>
 		<link rel="stylesheet" href="stylesheet.css">
@@ -19,21 +20,18 @@
 		<ul class="nav-links">
 		<li><a href="index.html">Home</a></li>
 		<li><a href="kabelchecklijst.html">Kabelchecklijst</a></li> 
-		<li><a href="tabelrood.html">Hijstesten</a></li>                
+		<li><a href="tabelrood.html">Hijstesten</a></li>       
 	  </ul>
 	  </nav>
-
+    <!--This is the start of the body where you can find the header and the table-->
 	<body>
 		<center>
 			<h1>Kabelchecklijst</h1>
 		</center>
-
-        <form>
 		<center>
+		<!--This is the top of the table-->
 		<table border="2">
-			<tr>
-			  <form method="post" action=""></form>
-			  
+			<tr>			  
 			  <th colspan="2" height="100">Zichtbare draadbreuken</th>
 			  <th>Afslijping van de aan de buitenzijde gelegen draden</th>
 			  <th>Roest en corrosie</th>
@@ -52,6 +50,7 @@
 			  <th>Mate van beschadiging</th>
 			  <th>Type</th>
 			</tr>
+			<!--Here are the empty boxes for output-->
 			<tr>
 			  <td height="20"></td>
 			  <td></td>
@@ -132,6 +131,7 @@
 			  <td></td>
 			  <td></td>
 			</tr>
+			<!--This is the bottom of the table-->
 			<tr>
 				<th colspan="8"></th>
 			</tr>
@@ -152,11 +152,8 @@
 				<td colspan="2"></td>
 				<td class="table1" colspan="2">Redenen voor het afleggen:</th>
 				<td colspan="2"></td>
-			</tr>
-			</form>
-			
-			  
-		  </table>
+			</tr>			  
+		</table>
 		</center>
-	</body>
+    </body>
 </html>
