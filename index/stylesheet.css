@@ -35,3 +35,11 @@ nav {
   .table1 {
     background-color: #D8D8D8;
   }
+
+  .table_ja {
+    background-color: green;
+  }
+
+  .table_nee {
+    background-color: red;
+  }

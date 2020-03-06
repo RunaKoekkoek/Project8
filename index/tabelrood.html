@@ -2,9 +2,9 @@
 
 <!--
     Name Document: kabelchecklijst.html
-    Author: Jari Cramers
+    Author: Jari Cramer
     Date of creation: 12-02-2020
-    Last change: 14-02-2020
+    Last change: 06-03-2020
 -->
 
 <html>
@@ -17,96 +17,96 @@
   <!--This is the navigation bar. Pages: Home, Kabelchecklijst, Hijstesten-->
 	<nav>
 		<ul class="nav-links">
-		<li><a href="index.html">Home</a></li>
-		<li><a href="kabelchecklijst.html">Kabelchecklijst</a></li> 
-		<li><a href="tabelrood.html">Hijstesten</a></li>                
+		<li><a href="index.html">Home</a></li>                                        <!-- This is the home page -->
+		<li><a href="kabelchecklijst.html">Kabelchecklijst</a></li>                   <!-- This is the cable check list -->
+		<li><a href="tabelrood.html">Hijstesten</a></li>                              <!-- This is the crane check list -->
 	  </ul>
 	  </nav>
 
 	<body>
-    <center>
-			<h1>Hijstesten</h1>
+    <center>                                                                      <!-- Centers the Title -->
+			<h1>Hijstesten</h1>                                                         <!-- Title of the table -->
     </center> 
-    <center>
+    <center>                                                                      <!-- Centers the Table -->
       <table border="2">
         <tr>
-          <th rowspan="2">Volgnummer<br>beproeving</th>
-          <th colspan="3">Opgesteld op:</th>
-          <th colspan="4">Gieklengte</th>
-          <th colspan="3">Giekhoek</th>
-          <th colspan="4">Zwenkhoek</th>
-          <th colspan="2">Beproeving</th>
-          <th colspan="2">Akkoord</th>
+          <th rowspan="2">Volgnummer<br>beproeving</th>                           <!-- Cel 1:A -->
+          <th colspan="3">Opgesteld op:</th>                                      <!-- Cel 1:B -->
+          <th colspan="4">Gieklengte</th>                                         <!-- Cel 1:C -->
+          <th colspan="3">Giekhoek</th>                                           <!-- Cel 1:D -->
+          <th colspan="4">Zwenkhoek</th>                                          <!-- Cel 1:E -->
+          <th colspan="2">Beproeving</th>                                         <!-- Cel 1:F -->
+          <th colspan="2">Akkoord</th>                                            <!-- Cel 1:G -->
         </tr>
         <tr>
-          <th>Banden<br><br><br><br><br><br></th>
-          <th>Stempels<br><br><br><br><br><br></th>
-          <th>Rupsen<br><br><br><br><br><br></th>
+          <th valign="top">Banden</th>                                            <!-- Cel 2:B -->
+          <th valign="top">Stempels</th>                                          <!-- Cel 2:C -->
+          <th valign="top">Rupsen</th>                                            <!-- Cel 2:D -->
 
-          <th>Hoofd-<br>giek<br><br><br><br>m</th>
-          <th>Mecha-<br>nische<br>sectie<br><br><br>m</th>
-          <th>Hulp-<br>giek<br><br><br><br>m</th>
-          <th>Totale<br>giek<br>lengte<br><br><br>m</th>
+          <th valign="top">Hoofd-<br>giek<br><br><br><br>m</th>                   <!-- Cel 2:E -->
+          <th valign="top">Mecha-<br>nische<br>sectie<br><br><br>m</th>           <!-- Cel 2:F -->
+          <th valign="top">Hulp-<br>giek<br><br><br><br>m</th>                    <!-- Cel 2:G -->
+          <th valign="top">Totale<br>giek<br>lengte<br><br><br>m</th>             <!-- Cel 2:H -->
 
-          <th>Hoofd-<br>giek<br><br><br><br>gr</th>
-          <th>Hulp-<br>giek<br><br><br><br>gr</th>
-          <th>Aantal-<br>parten<br>hijskabel<br><br><br><br></th>
+          <th valign="top">Hoofd-<br>giek<br><br><br><br>gr</th>                  <!-- Cel 2:I -->
+          <th valign="top">Hulp-<br>giek<br><br><br><br>gr</th>                   <!-- Cel 2:J -->
+          <th valign="top">Aantal-<br>parten<br>hijskabel</th>                    <!-- Cel 2:K -->
 
-          <th>R=360<br>A=achter-,<br>Z=zij-,<br>V=voorsector<br><br><br></th>
-          <th>Eigen<br>Massa<br>Ballast<br>LMB code<br><br>t</th>
-          <th>Toelaatbare<br>bedrijfslast<br>bij in<br>werking<br><br><br></th>
-          <th>LMB<br>treed in<br>werking<br>bij:<br><br><br></th>
+          <th valign="top">R=360<br>A=achter-,<br>Z=zij-,<br>V=voorsector</th>    <!-- Cel 2:L -->
+          <th valign="top">Eigen<br>Massa<br>Ballast<br>LMB code<br><br>t</th>    <!-- Cel 2:M -->
+          <th valign="top">Toelaatbare<br>bedrijfslast<br>bij in<br>werking</th>  <!-- Cel 2:N -->
+          <th valign="top">LMB<br>treed in<br>werking<br>bij:</th>                <!-- Cel 2:O -->
 
-          <th>Proeflast<br><br><br><br><br><br></th>
-          <th>Afwijking<br>in %<br><br><br><br><br></th>
+          <th valign="top">Proeflast</th>                                         <!-- Cel 2:P -->
+          <th valign="top">Afwijking</th>                                         <!-- Cel 2:Q -->
 
-          <th>Ja<br><br><br><br><br><br></th>
-          <th>Nee<br><br><br><br><br><br></th>
+          <th valign="top"; class="table_ja";>Ja</th>                                                <!-- Cel 2:R -->
+          <th valign="top"; class="table_nee";>Nee</th>                                               <!-- Cel 2:S -->
 
         </tr>
       
       
         <tr>
-          <th>1</th>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <th>1</th>                                                              <!-- Cel 3:A -->
+          <td></td>                                                               <!-- Cel 3:B -->
+          <td></td>                                                               <!-- Cel 3:C -->
+          <td></td>                                                               <!-- Cel 3:D -->
+          <td></td>                                                               <!-- Cel 3:E -->
+          <td></td>                                                               <!-- Cel 3:F -->
+          <td></td>                                                               <!-- Cel 3:G -->
+          <td></td>                                                               <!-- Cel 3:H -->
+          <td></td>                                                               <!-- Cel 3:I --> 
+          <td></td>                                                               <!-- Cel 3:J -->
+          <td></td>                                                               <!-- Cel 3:K -->
+          <td></td>                                                               <!-- Cel 3:L -->
+          <td></td>                                                               <!-- Cel 3:M -->
+          <td></td>                                                               <!-- Cel 3:N -->
+          <td></td>                                                               <!-- Cel 3:O -->
+          <td></td>                                                               <!-- Cel 3:P -->
+          <td></td>                                                               <!-- Cel 3:Q -->
+          <td></td>                                                               <!-- Cel 3:R -->
+          <td></td>                                                               <!-- Cel 3:S -->
         </tr>
         <tr>
-          <th>2</th>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
+          <th>2</th>                                                              <!-- Cel 4:A -->
+          <td></td>                                                               <!-- Cel 4:B -->
+          <td></td>                                                               <!-- Cel 4:C -->
+          <td></td>                                                               <!-- Cel 4:D -->
+          <td></td>                                                               <!-- Cel 4:E -->
+          <td></td>                                                               <!-- Cel 4:F -->
+          <td></td>                                                               <!-- Cel 4:G -->
+          <td></td>                                                               <!-- Cel 4:H -->
+          <td></td>                                                               <!-- Cel 4:I --> 
+          <td></td>                                                               <!-- Cel 4:J -->
+          <td></td>                                                               <!-- Cel 4:K -->
+          <td></td>                                                               <!-- Cel 4:L -->
+          <td></td>                                                               <!-- Cel 4:M -->
+          <td></td>                                                               <!-- Cel 4:N -->
+          <td></td>                                                               <!-- Cel 4:O -->
+          <td></td>                                                               <!-- Cel 4:P -->
+          <td></td>                                                               <!-- Cel 4:Q -->
+          <td></td>                                                               <!-- Cel 4:R -->
+          <td></td>                                                               <!-- Cel 4:S -->
         </tr>
     </table>
   </center>
@@ -115,55 +115,3 @@
     
     
 </html>
-<!--
-
-		<center>
-			<h1>Hijstesten</h1>
-		</center>
-		<p>
-		<center>
-		<table border="2">
-			<tr>
-			  <th rowspan="2" height="100">Volgnummer<br>beproeving</th>
-			  <th>Afslijping van de aan de buitenzijde gelegen draden</th>
-			  <th>Roest en corrosie</th>
-			  <th>Verminderde kabeldiameter</th>
-			  <th>Positie van de meetpunten</th>
-			  <th>Totale beoordeling</th>
-			  <th>Beschadiging en vervormingen</th>
-			</tr>
-			<tr>
-			  <th>Aantal met een lengte</th>
-			  <th>Aantal met een lengte</th>
-			  <th>Mate van beschadiging</th>
-			  <th>Mate van beschadiging</th>
-			  <th>%</th>
-			  <th></th>
-			  <th>Mate van beschadiging</th>
-			  <th>Type</th>
-			</tr>
-			<tr>
-			  <td height="20">1</td>
-			  <td></td>
-			  <td></td>
-			  <td></td>
-			  <td></td>
-			  <td></td>
-			  <td></td>
-			  <td></td>
-			</tr>
-			<tr>
-				<td height="20">2</td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-        </tr>
-      </table>
-		</center>
-	</p>
-  </body>
-  --> 
