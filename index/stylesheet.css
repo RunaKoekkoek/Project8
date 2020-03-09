@@ -56,11 +56,6 @@ nav {
     font-size: 2px;
   }
 
-  .invisible-cel{
-    border-color:#00000000;
-    height:                    25px;
-}
-
 .no-border-top{
   border-top-color:#00000000;
   height:                 25px;
