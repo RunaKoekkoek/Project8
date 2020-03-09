@@ -41,3 +41,42 @@ nav {
   .table_nee {
     background-color: red;                        /* The background colour of the class "table_nee" */
   }
+
+  .nummer-test2 {
+    float: right;
+
+  }
+
+  .nummer-test1 {
+    float: left;
+
+  }
+
+  .titel-voorblad {
+    font-size: 2px;
+  }
+
+  .invisible-cel{
+    border-color:#00000000;
+    height:                    25px;
+}
+
+.no-border-top{
+  border-top-color:#00000000;
+  height:                 25px;
+}
+
+.no-border-bottom{
+  border-bottom-color:#00000000;
+  height:                 25px;
+}
+
+.no-border-right{
+  border-right-color:#00000000;
+  height:                 25px;
+}
+
+.no-border-left{
+  border-left-color:#00000000;
+  height:                 25px;
+}
